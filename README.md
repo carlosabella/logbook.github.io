@@ -1,6 +1,6 @@
 # Log Book
 
-[[![CI Workflow](https://github.com/carlosabella/logbook.github.io.git/workflows/CI/badge.svg)](https://github.com/carlosabella/logbook.github.io.git/actions?query=workflow%3ACI)]
+[![pages-build-deployment workflow](https://github.com/carlosabella/logbook.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/carlosabella/logbook.github.io/actions/workflows/pages/pages-build-deployment)
 
 My tech notes and thoughs built on Jekyll.
 
