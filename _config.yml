@@ -14,8 +14,8 @@ description: "<h3></h3><h1>Log Book</h1><h3>Notes, thoughts and other experience
 
 domain: carlosabella.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://carlosabella.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /devblog.github.io        # place folder name if the site is served in a subfolder
-repository: carlosabella/devblog.github.io
+baseurl: /logbook.github.io        # place folder name if the site is served in a subfolder
+repository: carlosabella/logbook.github.io
 twitter_username: abella_carlos
 github_username:  carlosabella
 
