@@ -11,3 +11,12 @@ Just push to source repository
 ``` shell
 git push origin main
 ```
+
+## Local development
+
+In order to make easier local builds, I've created this two alias in my "~/.zshrc" configuration file.
+
+``` shell
+alias jbuild="bundle exec jekyll build"
+alias jserve="bundle exec jekyll serve"
+```
