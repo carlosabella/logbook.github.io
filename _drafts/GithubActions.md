@@ -14,4 +14,4 @@ curl \
  ### Github Action
  
  Go to the test project to see the example: https://github.com/carlosabella/myfolder.github.io/actions/runs/1806466367/workflow
- 
+To create better the document in the action, I can use "here document" https://en.wikipedia.org/wiki/Here_document 
