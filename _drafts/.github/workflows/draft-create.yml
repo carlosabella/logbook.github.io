@@ -1,0 +1,35 @@
+# This manual workflow will be triggered from the API by a Google App Script trigger. 
+
+name: Create Draft
+
+on:
+  workflow_dispatch:
+    inputs:
+      title: 
+        description: 'Draft Title'
+        required: true
+      body:
+        description: 'Draft Content'
+        required: true
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        
+      - name: create new draft
+        run: echo '${{ github.event.inputs.body }}' > _drafts/'${{ github.event.inputs.title }}.md'
+
+      - name: setup git config
+        run: |
+          # setup the username and email. I use 'GitHub Actions Bot' with no email
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+      - name: commit
+        run: |
+          # Stage the file, commit and push
+          git add _drafts/'${{ github.event.inputs.title }}.md'
+          git commit -m "new draft"
+          git push origin main
