@@ -2,6 +2,8 @@
 
 [![pages-build-deployment workflow](https://github.com/carlosabella/logbook.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/carlosabella/logbook.github.io/actions/workflows/pages/pages-build-deployment)
 
+[![draft-create workflow](https://github.com/carlosabella/logbook.github.io/actions/workflows/draft-create.yml/badge.svg)](https://github.com/carlosabella/logbook.github.io/actions/workflows/draft-create.yml)
+
 My tech notes and thoughs built on Jekyll.
 
 ## Deploy
