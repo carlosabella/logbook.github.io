@@ -31,3 +31,5 @@ In here you will find basic usage: clone, pull, push, versioning and deployment.
 Command line guide: https://developers.google.com/apps-script/guides/clasp
 
 Official repository: https://github.com/google/clasp
+
+Samples: https://github.com/googleworkspace/apps-script-samples
